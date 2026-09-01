@@ -9,4 +9,6 @@ int main(){
      printf(" 335D \n\n");
      printf("Ano de ingresso: \n");
      printf(" 2026\n\n");
+
+  return 0; 
 }
