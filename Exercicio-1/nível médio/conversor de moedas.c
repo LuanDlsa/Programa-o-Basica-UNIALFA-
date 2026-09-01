@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 float valor1;
 float valor2;
 float resultado;
@@ -15,5 +16,7 @@ int main(){
 resultado = valor1 / valor2;
  
     printf("O valor R$ %.2f com a cotacao do dolar R$ %.2f ,  resulta em US$ %.2f", valor1, valor2, resultado);
-
+     
+    system("pause");
+    
 return 0;  }
