@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 int numero1; // variável 1 
 int numero2; // variável 2
 int resultado;
@@ -16,7 +17,7 @@ int main() {
 
    printf("O resultado da soma de %d e %d e igual a %d\n", numero1, numero2, resultado); // caulculo a soma de numero 1 e numero2, exibe o resultado na tela 
 
-    
+         system("pause");
 
       return 0;
 }
