@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include <stdlib.h> // usar funções que estão declaradas na biblioteca padrão stdlib.h
 int main(){
-     printf("--Faculdade UNIALFA--\n\n");
-     printf("Nome Completo: \n"); 
+     printf("--Faculdade UNIALFA--\n\n"); // printf é usado para imprimir uma mensagem na tela
+     printf("Nome Completo: \n"); // (/n) cada vez que é adicionado pula uma linha
      printf("DEIVID LUAN SILVA DE ASSIS \n\n");
      printf("Curso: \n");
      printf("Analise e Desenvolvimento de Sistemas \n\n");
@@ -10,5 +11,7 @@ int main(){
      printf("Ano de ingresso: \n");
      printf(" 2026\n\n");
 
-  return 0; 
+         system("pause"); // comando para manter a aba da execução do codigo aberta até pressionar qualquer tecla
+
+      return 0;
 }
